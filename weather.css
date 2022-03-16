@@ -1,0 +1,144 @@
+* {
+    margin: 0px auto;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#nav {
+    display: flex;
+    align-items: center;
+    background-color: rgb(0, 238, 255);
+    color: white;
+    height: 80px;
+    width: 900px;
+}
+
+#nav h1 {
+    margin-right: 0px;
+    margin-left: 100px;
+}
+
+#cities {
+    display: flex;
+    align-items: center;
+    margin-left: 180px;
+    
+}
+#cities li {
+    margin-right: 30px;
+    list-style: none;
+    padding: 10px;
+    width: 80px;
+    font-size: 20px;
+    
+
+}
+.link{
+    color: white;
+    text-decoration: none;
+
+}
+#select-temp {
+    display: flex;
+    align-items: center;
+    margin-top: 15px;
+    border-bottom: 2px solid black;
+    width: 700px;
+}
+
+#select-temp h2 {
+    margin-bottom: 15px;
+    margin-left: 0px;
+    font-weight: normal;
+}
+
+#option {
+    margin-right: 0px;
+    height: 30px;
+}
+
+label {
+    margin-right: 10px;
+}
+
+#main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.col img {
+    width: 100px;
+    margin-left: 15px;
+    border-radius: 50%;
+    margin-top: 10px;
+    
+}
+.col h3 {
+    margin-left: 35px;
+    margin-top: 10px;
+    font-weight: normal;
+    
+}
+.col {
+    border: 2px solid grey;
+    width: 140px;
+    margin: 20px;
+    height: 250px;
+    background-color: lightgrey;
+    
+}
+
+.col-temp {
+    margin-left: 20px;
+}
+.para {
+    margin-left: 35px;
+    margin-bottom: 30px;
+    margin-top: 15px;
+}
+
+.red {
+    color: red;
+    font-weight: bold;
+}
+.blue::after,.red::after{
+    content: "°";
+}
+
+.blue {
+    color: blue;
+    font-weight: bold;
+    margin-left: 40px;
+}
+
+#bottom {
+    display: flex;
+    align-items: center;
+    width: 700px;
+    border: 3px solid black;
+    height: 120px;
+    background-color: lightgrey;
+
+}
+#bottom-img {
+    margin-right: 15px;
+}
+#bottom-con {
+    display: flex;
+    align-items: center;
+    
+}
+#content {
+    margin-top: 15px;
+    margin-left: 10px;
+}
+button {
+    height: 30px;
+    width: 80px;
+    background-color: rgb(25, 131, 167);
+    font-size: 15px;
+    border-color:black;
+    box-shadow: 3px 3px 3px black;
+}
